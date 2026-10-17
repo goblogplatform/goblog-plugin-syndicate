@@ -1,0 +1,12 @@
+{
+  "name": "syndicate",
+  "display_name": "Syndicate",
+  "description": "Cross-posts new posts to dev.to and Hashnode, each copy with a canonical link back to your blog.",
+  "author": "Jason Ernst",
+  "license": "Apache-2.0",
+  "runtime": "wasm",
+  "entry": "plugin.wasm",
+  "allowed_hosts": ["dev.to", "gql.hashnode.com"],
+  "min_goblog_version": "0.16.0",
+  "homepage": "https://github.com/goblogplatform/goblog-plugin-syndicate"
+}
